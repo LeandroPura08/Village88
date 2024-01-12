@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;;
+    box-sizing: border-box;
+}
+
+.pageContainer{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: nunito;
+}
+    header{
+        height: 60px;
+        background-color:#4169E1;
+        width: 100%;
+        display: inline-block;
+        padding-left: 100px;
+        border-bottom: 5px solid blue;
+    }
+        header img{
+            margin-top: 20px;
+            height: 40%;
+            display: inline-block;
+        }
+        header ul{
+            display: inline-block;
+            height: 60px;
+            vertical-align: top;
+            padding: 0px;
+        }
+            header ul li{
+                height: 100%;
+                display: inline-block;
+                padding: 20px 10px 0px 10px;
+                color: white;
+            }
+            header ul li.active{
+                background-color:blue;
+            }
+            header ul li:hover{
+                cursor: pointer;
+                color: rgb(32, 30, 30);
+            }
+        header input{
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 20px;
+            width: 350px;
+            height: 30px;
+            margin-left: 400px;
+            padding: 2px 20px;
+        }
+    main{
+        height: 600px;
+        width: 100%;
+        background-color: gray;
+        padding: 0 60px;
+    }
+        main .breadcrumbs-tutorialContent{
+            background-color: white;
+            height: 598px;
+            width: 1000px;
+            display: inline-block;
+        }
+            .breadcrumbs-tutorialContent .breadcrumbs{
+                height: 40px;
+                border-bottom: 1px solid black;
+                vertical-align:middle;
+                font-size: 10px;
+                font-weight: 700;
+                padding: 10px 0px 0px 10px;
+                color: white;
+                background-color: gray;
+                letter-spacing: 1px;
+            }
+            .breadcrumbs p{
+                display: inline-block;
+            }
+            .breadcrumbs p:hover{
+                cursor: pointer;
+                color: black;
+                
+            }
+            .breadcrumbs-tutorialContent .mainContent{
+                padding: 20px 20px;
+            }
+                .mainContent .language{
+                    height: 50px;
+                    text-align: end;
+                }
+                .mainContent .language .report ul li a:hover{
+                    cursor: pointer;
+                    color: blue;
+                }
+                    .mainContent .language .report ul li{
+                        font-size: 15px;
+                        display: inline-block;
+                        text-decoration:none;
+                    }
+                      .report ul li:last-child{
+                        margin-left: 15px;
+                      }
+                      .report ul li a{
+                        text-decoration: none;
+                        font-size: 12px;
+                      }
+                .mainContent h1{
+                    border-bottom: dotted 2px rgb(131, 127, 127);
+                }
+                .mainContent h2{
+                    height: 80px;
+                    border-bottom: dotted 2px rgb(131, 127, 127);
+                    vertical-align: bottom;
+                    padding-top: 35px;
+                }
+                .mainContext ul{
+                    padding: 20px;
+                }
+                    .mainContent ul li{
+                        margin: 3px 0px;
+    
+                    }
+                .mainContext p{
+                    margin-bottom: 20px;
+                    font-size: 15px;
+                }
+                .mainContext .contributedNotes{
+                    border-bottom: dotted 2px gray;
+                    width: 100%;
+                    vertical-align: bottom;
+                }
+                    .mainContext .contributedNotes .title-uploadbutton h4{
+                        display: inline-block;
+                        text-align: right;
+                        vertical-align: bottom;
+                        font-size: medium;
+                    }
+
+                    .title-uploadbutton{
+                        padding-bottom: 20px;
+                    }
+                    .title-uploadbutton .addbutton-container{
+                        display: inline-block;
+                        margin-left: 70%;
+                        vertical-align: bottom;
+                    }
+                    .title-uploadbutton a{
+                        justify-content: end;
+                    }
+                    .title-uploadbutton a img{
+                        display: inline-block;
+                        margin-right: 5px;
+                        margin-bottom: 0px;
+                        vertical-align:middle;
+                        width: 15px;
+                    }
+                    .title-uploadbutton a p{
+                        display: inline-block;
+                        margin-bottom: 0;
+                        vertical-align: bottom;
+                    }
+
+                
+
+            
